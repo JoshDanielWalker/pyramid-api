@@ -1,0 +1,60 @@
+let json = [{
+  round: "1",
+  stages: {
+    'stage_id': '5',
+    'cards': [
+      {layout: '0'},
+      {layout: '0'},
+      {layout: '1', cardid: 1, cardname: 'One', deck:deck1[0] },
+      {layout: '0'},
+      {layout: '0'}
+    ]
+  },
+  {
+    'stage_id': '4',
+    'cards': [
+      {layout: '0'},
+      {layout: '1', cardid: 1, cardname: 'One', deck:deck1[1] },
+      {layout: '2', cardid: 2, cardname: 'Two', deck:deck1[2] },
+      {layout: '0'}
+    ]
+  },
+  {
+    'stage_id': '3',
+    'cardid': '3',
+    'cards': [
+      {layout: '0'},
+      {layout: '1', cardid: 1, cardname: 'One', deck:deck1[3] },
+      {layout: '2', cardid: 2, cardname: 'Two', deck:deck1[4] },
+      {layout: '3', cardid: 3, cardname: 'Three', deck:deck1[5] },
+      {layout: '0'}
+    ]
+  },
+  {
+    'stage_id': '2',
+    'cards': [
+      {layout: 'half'},
+      {layout: '1', cardid: 1, cardname: 'One', deck:deck1[6] },
+      {layout: '2', cardid: 2, cardname: 'Two', deck:deck1[7] },
+      {layout: '3', cardid: 3, cardname: 'Three', deck:deck1[8] },
+      {layout: '4', cardid: 4, cardname: 'Four', deck:deck1[9] },
+      {layout: 'half'}
+    ]
+  },
+
+  {
+    'stage_id': '1',
+    'cards': [
+      {layout: '1', cardid: 1, cardname: 'One', deck:deck1[10] },
+      {layout: '2', cardid: 2, cardname: 'Two', deck:deck1[11] },
+      {layout: '3', cardid: 3, cardname: 'Three', deck:deck1[12] },
+      {layout: '4', cardid: 4, cardname: 'Four', deck:deck1[13] },
+      {layout: '5', cardid: 5, cardname: 'Five', deck:deck1[14] }
+    ]
+  },
+  players:   { stage: '1', text: 'Player One', color: 'blue' },
+    { stage: '2', text: 'Player Two', color: 'purple' },
+    { stage: '3', text: 'Player Three', color: 'red' },
+    { stage: '1', text: 'Player Four', color: 'green' }
+
+}]
