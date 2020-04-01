@@ -1,4 +1,4 @@
-let json = [{
+{
   round: "1",
   stages: {
     'stage_id': '5',
@@ -57,4 +57,4 @@ let json = [{
     { stage: '3', text: 'Player Three', color: 'red' },
     { stage: '1', text: 'Player Four', color: 'green' }
 
-}]
+}
