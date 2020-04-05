@@ -3,5 +3,6 @@
 
   "Player": [
           { "stage": "1", "text": "Player One", "color": "blue" },
-          { "stage": "2", "text": "Player Two", "color": "purple"}           ]
+          { "stage": "3", "text": "Player Two", "color": "purple"}           
+  ]
 }
